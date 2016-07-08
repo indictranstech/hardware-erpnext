@@ -2,6 +2,7 @@
 // License: GNU General Public License v3. See license.txt
 
 frappe.provide("erpnext.item");
+{% include 'hardware_store/customization/item.js' %}
 
 frappe.ui.form.on("Item", {
 	onload: function(frm) {
