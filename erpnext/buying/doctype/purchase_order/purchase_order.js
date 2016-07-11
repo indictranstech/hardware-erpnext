@@ -4,6 +4,7 @@
 frappe.provide("erpnext.buying");
 
 {% include 'buying/doctype/purchase_common/purchase_common.js' %};
+{% include 'hardware_store/customization/rudy_purchase_order.js' %};
 
 frappe.ui.form.on("Purchase Order", {
 	onload: function(frm) {
