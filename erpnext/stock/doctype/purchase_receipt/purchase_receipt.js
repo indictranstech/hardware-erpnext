@@ -4,6 +4,7 @@
 {% include 'buying/doctype/purchase_common/purchase_common.js' %};
 
 frappe.provide("erpnext.stock");
+{% include 'hardware_store/customization/purchase.js'%}
 
 frappe.ui.form.on("Purchase Receipt", {
 	onload: function(frm) {
